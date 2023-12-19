@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nestedflex profile</title>
+    <style>
+      .container {
+        padding: 10px 15px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+        width: 400px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .inbox {
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+        margin-bottom: 20px;
+        font-family: arial;
+      }
+
+      .email {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        align-items: center;
+      }
+
+      .sender-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+
+      .sender-picture-container {
+        margin-right: 10px;
+      }
+
+      .email-header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .headline {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 5px;
+      }
+
+      .time {
+        color: rgb(120, 120, 120);
+        font-family: arial;
+      }
+
+      .subject {
+        font-weight: bold;
+        font-family: arial;
+        font-size: 14px;
+        margin-bottom: 3px;
+      }
+
+      .message {
+        color: rgb(120, 120, 120);
+        font-family: arial;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inbox">ALL INBOXES</div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="/thumbnails/ej-glasses.jpg">
+      </div>
+    <div class="email-content">
+      <div class="email-header">
+        <div class="headline">Earljohn Promotions</div>
+        <div class="time">2:05 pm</div>
+      </div>
+      <div class="subject">Biggest sales of the year!</div>
+      <div class="message">Hey there! We're writing to tell you about our...</div>
+    </div>
+      </div>
+
+      <div class="email">
+        <div class="sender-picture-container">
+          <img class="sender-picture" src="/thumbnails/krizel-in-restroom.jpg">
+        </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="headline">Chewy Promotions</div>
+          <div class="time">2:05 pm</div>
+        </div>
+        <div class="subject">Biggest sales of the year!</div>
+        <div class="message">Hey there! We're writing to tell you about our...</div>
+      </div>
+        </div>
+
+        <div class="email">
+          <div class="sender-picture-container">
+            <img class="sender-picture" src="/thumbnails/sean.jpg">
+          </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="headline">Chewy Promotions</div>
+            <div class="time">2:05 pm</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="message">Hey there! We're writing to tell you about our...</div>
+        </div>
+          </div>
+    </div>
+  </body>
+</html>

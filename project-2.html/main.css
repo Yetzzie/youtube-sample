@@ -1,0 +1,118 @@
+.all-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.head-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  flex-direction: row;
+}
+
+.semi-head {
+  display: flex;
+  align-items: center;
+}
+
+.head-content span {
+  font-weight: bold;
+  color: gray;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.thumbnail-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.hours {
+  margin-left: 13px;
+  color: gray;
+}
+
+.triple-dot-icon {
+  margin-left: px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-picture {
+  width: 500px;
+  height: 580px;
+  object-fit: cover;
+}
+
+.column-text {
+  border-bottom: 1px solid rgba(115, 115, 155, 0.3);
+  padding-bottom: 40px;
+}
+
+.react-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.react-image-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.heart-icon {
+  width: 50px;
+  margin-right: 13px;
+}
+
+.comment-icon, .message-icon {
+  width: 30px;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+.save-icons {
+  width: 28px;
+  margin-bottom: 10px;
+}
+
+.liked-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.liked-img {
+  width: 20px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.liked-column-text {
+  font-size: 17px;
+}
+
+.liked-column-text span {
+  font-weight: bold;
+}
+
+.user-span {
+  font-weight: bold;
+}
+
+.comment-section {
+  color: rgb(115, 115, 155);
+  font-size: 14px;
+  cursor: pointer;
+}

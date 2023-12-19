@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>onther nested flexbox</title>
+
+    <style>
+      div {
+        font-family: arial;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+         width: 420px;
+         margin-top: 10px;
+         margin-left: 20px;
+      }
+
+      .profile-picture {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+
+      .profile-container {
+        margin-right: 10px;
+      }
+
+
+      .email-content {
+        flex: 1;
+      }
+
+      .email-header {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+
+      .user-ing {
+        font-weight: bold;
+        margin-right: 3px;
+      }
+
+      .user-email {
+        color: rgb(120, 120, 120);
+      }
+
+      .tweet-content {
+        line-height: 20px;
+         margin-bottom: 15px;
+      }
+
+      .youtube-container {
+        display: flex;
+        flex-direction: row;
+         align-items: center;
+         border-width: 1px;
+         border-style: solid;
+        border-color: rgb(200, 200, 200);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .right {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(220, 220, 220);
+        margin-right: 10px;
+      }
+
+      .video-info-column {
+        flex: 1;
+      }
+
+      .video-website {
+        color: rgb(111, 111, 111);
+        margin-bottom: 3px;
+      }
+
+      .video-title {
+        line-height: 22px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="profile-container">
+          <img class="profile-picture" src="/thumbnails/ej-glasses.jpg">
+        </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="user-ing">Supersimple.dev</div>
+            <div class="user-email">@SuperSimpleDev</div>
+          </div>
+          <div class="tweet-content">What is backend web development? A complete
+            overview.New Video is up!
+          </div>
+        
+
+      <div class="youtube-container">
+        <div class="right"></div>
+        <div class="video-info-column"> 
+          <div class="video-website">youtube.com</div>
+          <div class="video-title">Backend web development - a complete
+            overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

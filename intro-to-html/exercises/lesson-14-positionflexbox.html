@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fb discord</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      div {
+        font-family: arial;
+      }
+
+      img {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        object-fit: cover;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 10px 50px;
+      }
+
+      .photo-header {
+        display: flex;
+        align-items: center;
+      }
+
+      .fb-photo {
+        width: 50px;
+        height: 50px;
+        border-radius: 35px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      .fb-name {
+        font-family: arial;
+        font-weight: bold;
+      }
+
+      .add-button {
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        font-weight: bold;
+        padding: 8px 12px;
+         border-radius: 7px;
+         margin-right: 3px;
+      }
+
+      .message-button {
+        background-color: rgb(230, 230, 230);
+        border: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-radius: 7px;
+      }
+
+      .sidebar-1 {
+        background-color: rgb(33, 33, 33);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 70px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .sidebar-2 {
+        background-color: rgb(55, 55, 55);
+        position: fixed;
+        left: 60px;
+        top: 70px;
+        bottom: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .info-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .channel-1 {
+        color: rgb(150, 150, 150);
+        margin-bottom: 16px;
+      }
+
+      .info {
+        color: white;
+        font-size: 14px;
+      }
+
+      .plus {
+        color: rgb(150, 150, 150);
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="photo-header">
+        <img class="fb-photo" src="/thumbnails/sean.jpg">
+        <div class="fb-name">Sean Darbin</div>
+      </div>
+
+      <div>
+        <button class="add-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+
+    <div class="sidebar-1">
+      <div>
+        <img src="/thumbnails/krizel-in-restroom.jpg">
+      </div>
+      <div>
+        <img src="/thumbnails/ej-glasses.jpg">
+      </div>
+      <div>
+        <img src="/thumbnails/shania.jpg">
+      </div>
+    </div>
+
+    <div class="sidebar-2">
+      <div class="info-one">
+        <div class="info">INFO</div>
+        <div class="plus">+</div>
+      </div>
+        <div class="channel-1"># new-videos</div>
+        <div class="channel-1"># updates</div>
+        <div class="channel-1"># faq</div>
+    </div>
+  </body>
+</html>

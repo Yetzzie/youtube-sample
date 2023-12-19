@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>position Exercise</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .x-button {
+        position: absolute;
+        left: -15px;
+        top: -15px;
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        font-family: arial;
+        height: 45px;
+        width: 45px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .box {
+        background-color: gray;
+        width: 320px;
+        height: 180px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+      }
+
+      .notification-time {
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: arial;
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 3px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="box">
+      <div class="x-button">
+        X
+      </div>
+      <div class="notification-time">0:29</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+span {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 1s;
+}
+span:hover {
+  opacity: 0.5;
+}

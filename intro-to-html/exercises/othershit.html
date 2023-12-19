@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>friends shit</title>
+
+    <style>
+      p {
+        font-family: arial;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .profile-picture {
+       width: 200px;
+       height: 200px;
+       object-fit: cover;
+       margin-bottom: 12px;
+      }
+
+      .profile-div {
+        width: 200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        margin-right: 12px;
+        vertical-align: top;
+      }
+
+      .profile-mutual {
+        width: 28px;
+        height: 28px;
+        object-fit: cover;
+        border-radius: 30px;
+        vertical-align: middle;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        margin-left: 7px;
+        margin-bottom: 7px;
+      }
+
+      .profile-mutual-number {
+         color: rgb(100, 100, 100);
+      }
+
+      .add-button {
+        background-color: rgb(24, 119, 242);
+        color: white;
+         border: none;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-left: 8px;
+          margin-bottom: 10px;
+        }
+
+        .mutual-div {
+          display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+          margin-bottom: 8px;
+          margin-left: 7px;
+        }
+      
+      .all-grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="all-grid">
+      <div class="profile-div">
+        <img class="profile-picture" src="/thumbnails/earl-john.jpg">
+        <p class="profile-name">
+          Earl john Requierme
+        </p>
+        <div class="mutual-div">
+          <img class="profile-mutual" src="/thumbnails/ej.jpg">
+          <p class="profile-mutual-number"> 50 mutual friends</p>
+        </div>
+        <button class="add-button">
+          Add Friend
+        </button>
+      </div>
+    
+      <div class="profile-div">
+        <img class="profile-picture" src="/thumbnails/shania.jpg">
+        <p class="profile-name">
+          Shanina Requierme
+        </p>
+        <div class="mutual-div">
+          <img class="profile-mutual" src="/thumbnails/ej.jpg">
+          <p class="profile-mutual-number"> 32 mutual friends</p>
+        </div>
+        <button class="add-button">
+          Add Friend
+        </button>
+      </div>
+    
+      <div class="profile-div">
+        <img class="profile-picture" src="/thumbnails/krizel.jpg">
+        <p class="profile-name">
+          Krizel Pangilinan
+        </p>
+        <div class="mutual-div">
+          <img class="profile-mutual" src="/thumbnails/ej.jpg">
+          <p class="profile-mutual-number"> 32 mutual friends</p>
+        </div>
+        <button class="add-button">
+          Add Friend
+        </button>
+      </div>
+    </div>
+  
+  </body>
+</html>

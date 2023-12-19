@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dressoutfit</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .container {
+        width: 320px;
+        padding: 10px 10px;
+      }
+
+       .shirt-container {
+        position: relative;
+        display: inline-block;
+       }
+
+      .shirt-img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+      }
+
+      .pricing {
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: arial;
+        font-size: 13px;
+        padding: 4px 8px;
+        right: 0;
+        top: 10px;
+      }
+
+      .add-container {
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 110px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .add-class-button {
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px 8px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>  
+      <div class="shirt-container">
+        <img class="shirt-img" src="/thumbnails/shirt.jpg" alt="shirt">
+        <div class="pricing">20% OFF</div>
+        <div class="add-container">
+          <button class="add-class-button">Add to Cart</button>
+        </div>
+      </div>
+  </body>
+</html>

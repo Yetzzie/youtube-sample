@@ -1,0 +1,90 @@
+.sidebar {
+  position: fixed;
+  width: 67px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  border-right: 1px solid rgb(227, 227, 227);
+  z-index: 100;
+  background-color: white;
+}
+
+.sidebar img {
+  width: 30px;
+}
+
+.link-icon-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.link-icon-logo img {
+  padding: 13px 13px;
+  border-radius: 14px;
+}
+
+.link-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.link-icon img,
+.link-icon-logo img,
+.link-icon-hamburger img {
+  padding: 13px 13px;
+  border-radius: 14px;
+}
+
+.sidebar-profile {
+  height: 30px;
+  border-radius: 15px;
+}
+
+.link-icon-hamburger {
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+}
+
+.link-icon img:hover,
+.link-icon-logo img:hover,
+.link-icon-hamburger img:hover {
+  background-color: rgb(244, 244, 244);
+}
+
+
+
+
+
+.header {
+  padding-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 67px;
+  right: 0;
+  top: 0;
+  height: 73px;
+}
+
+.profile-header {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 25px;
+}
+
+.profile-name div {
+  font-size: 13px;
+}
